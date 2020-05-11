@@ -20,4 +20,3 @@ get '/named-cat' do
   @cat_name = params[:cat_name]
   erb(:index)
 end
-
